@@ -1,12 +1,11 @@
 #include<stdio.h>
-int main(){
-    int i,t;
+int main() {
+    int t,n,m,k,i;
     scanf("%d",&t);
-    for(i=0;i<t;i++){
-        int n,m,k;
+    for(i=0;i<t;i++) {
         scanf("%d%d%d",&n,&m,&k);
         m-=k;
-        if(m-n>=0){
+        if((m-n)>=0){
             printf("YES
 ");
         }
