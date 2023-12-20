@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main() {
-    int i,n,m=0;
+    int n,i,k=0;
     scanf("%d",&n);
-    for(i=2;i<=n;i++) {
+    for(i=2;i<=n;i++){
         if(n%i==0){
-            m++;
+            k++;
         }
     }
-    if(m==1){
+    if(k==1){
         printf("Prime");
     }
     else {
